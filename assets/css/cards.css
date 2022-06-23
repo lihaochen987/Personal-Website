@@ -102,7 +102,7 @@ a, a:hover {
   justify-content: center;
 }
 .postcard .postcard__tagbox .tag__item {
-  color: whitesmoke;
+  color: #191919;
   display: inline-block;
   background: #9A9AE0;
   border-radius: 3px;
