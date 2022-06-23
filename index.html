@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Bootstrap -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+    crossorigin="anonymous"
+  />
+  <head>
+    <title>Hao's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/cards.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <div id="header">
+      <div class="top">
+        <!-- Logo -->
+        <div id="logo">
+          <span class="image avatar48"
+            ><img src="images/avatar.jpg" alt=""
+          /></span>
+          <h1 id="title">HaoChen Li</h1>
+          <p>Back-end Developer</p>
+        </div>
+
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#top" id="top-link"
+                ><span class="icon solid fa-home">Intro</span></a
+              >
+            </li>
+            <li>
+              <a href="#projects" id="projects-link"
+                ><span class="icon solid fa-th">Projects</span></a
+              >
+            </li>
+            <li>
+              <a href="#workexperience" id="workexperience-link"
+                ><span class="icon solid fa-briefcase">Work Experience</span></a
+              >
+            </li>
+            <li>
+              <a href="#hobbies" id="hobbies-link"
+                ><span class="icon solid fa-gamepad">Hobbies</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="bottom">
+        <!-- Contact Links -->
+        <ul class="icons">
+          <li>
+            <a
+              href="https://github.com/lihaochen987"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto: lihaochen987@gmail.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/haochen-li/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="fab fa-linkedin"
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+      <!-- Intro -->
+      <section id="top" class="one dark cover">
+        <div class="container">
+          <header>
+            <h2 class="alt">Hey, my name is Hao!</h2>
+            <p>
+              I am currently looking for a back-end summer developer internship
+              position,<br />
+              favourably in an object-oriented language.
+            </p>
+          </header>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="two">
+        <div class="container">
+          <header>
+            <h2>Projects</h2>
+          </header>
+          <section class="light">
+            <div class="container py-2">
+              <!-- Hao's Portfolio -->
+              <article class="postcard light green">
+                <img
+                  class="postcard__img"
+                  src="images/personalwesbite.jpg"
+                  alt="Image Title"
+                />
+                <div class="postcard__text t-dark">
+                  <h1 class="postcard__title green">
+                    <a href="" target="_blank" rel="noreferrer noopener"
+                      >Website - Hao's Portfolio</a
+                    >
+                  </h1>
+                  <div class="postcard__subtitle small">23/06/2022</div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">
+                    Portfolio website created in HTML / CSS
+                  </div>
+                  <ul class="postcard__tagbox">
+                    <li class="tag__item">HTML/CSS</li>
+                    <li class="tag__item">Front-end</li>
+                    <li class="tag__item">Usability</li>
+                    <li class="tag__item">UX</li>
+                  </ul>
+                </div>
+              </article>
+              <!-- 331 Concert Project -->
+              <article class="postcard light orange">
+                <img
+                  class="postcard__img"
+                  src="images/concerts-page.png"
+                  alt="Image Title"
+                />
+                <div class="postcard__text t-dark">
+                  <h1 class="postcard__title orange">
+                    <a
+                      href="https://github.com/lihaochen987/331-Concert-Project"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      >Website - Concert Booking</a
+                    >
+                  </h1>
+                  <div class="postcard__subtitle small">03/06/2022</div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">
+                    Concert booking website created in Java.
+                  </div>
+                  <ul class="postcard__tagbox">
+                    <li class="tag__item">Java</li>
+                    <li class="tag__item">Back-end</li>
+                    <li class="tag__item">REST</li>
+                    <li class="tag__item">Jetty</li>
+                  </ul>
+                </div>
+              </article>
+              <!-- Object Detection Project -->
+              <article class="postcard light green">
+                <img
+                  class="postcard__img"
+                  src="images/pigeon.jpg"
+                  alt="Image Title"
+                />
+                <div class="postcard__text t-dark">
+                  <h1 class="postcard__title green">
+                    <a href="" target="_blank" rel="noreferrer noopener"
+                      >Machine Learning - Bird Detector</a
+                    >
+                  </h1>
+                  <div class="postcard__subtitle small">11/05/2022</div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">
+                    Object Detection weights optimised through YOLOv5.
+                  </div>
+                  <ul class="postcard__tagbox">
+                    <li class="tag__item">Python</li>
+                    <li class="tag__item">Back-end</li>
+                    <li class="tag__item">Google Colab</li>
+                    <li class="tag__item">Data Science</li>
+                  </ul>
+                </div>
+              </article>
+              <!-- 235 Hao's Library project -->
+              <article class="postcard light orange">
+                <img
+                  class="postcard__img"
+                  src="images/haolibraryproject.jpg"
+                  alt="Image Title"
+                />
+                <div class="postcard__text t-dark">
+                  <h1 class="postcard__title orange">
+                    <a
+                      href="https://github.com/lihaochen987/235-Haos-library"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      >Website - Hao's Library</a
+                    >
+                  </h1>
+                  <div class="postcard__subtitle small">18/10/2021</div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">
+                    Book ordering website created in Python.
+                  </div>
+                  <ul class="postcard__tagbox">
+                    <li class="tag__item">Python</li>
+                    <li class="tag__item">Full-stack</li>
+                    <li class="tag__item">Flask</li>
+                    <li class="tag__item">SQLAlchemy</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- Work Experience -->
+      <section id="workexperience" class="three">
+        <div class="container">
+          <header>
+            <h2>Work Experience</h2>
+          </header>
+
+          <a href="#" class="image featured"
+            ><img src="images/pic08.jpg" alt=""
+          /></a>
+
+          <p>
+            Tincidunt eu elit diam magnis pretium accumsan etiam id urna.
+            Ridiculus ultricies curae quis et rhoncus velit. Lobortis elementum
+            aliquet nec vitae laoreet eget cubilia quam non etiam odio tincidunt
+            montes. Elementum sem parturient nulla quam placerat viverra mauris
+            non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+            donec curae mus vel quisque sociis nec ornare iaculis.
+          </p>
+        </div>
+      </section>
+
+      <!-- Hobbies -->
+      <section id="hobbies" class="four">
+        <div class="container">
+          <header>
+            <h2>Hobbies</h2>
+          </header>
+          <section class="light">
+            <!-- Teamfight Tactics -->
+            <div class="container py-2">
+              <h3>Video Games - Teamfight Tactics</h3>
+              <article class="postcard light green">
+                <a
+                  class="postcard__img_link"
+                  href="https://lolchess.gg/profile/oce/qwertyuiopas/s7"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img
+                    class="postcard__full_img"
+                    src="images/tft.jpg"
+                    alt="Image Title"
+                  />
+                </a>
+              </article>
+
+              <h3>Reading - Classic Literature</h3>
+              <!-- Goodreads -->
+              <article class="postcard light green">
+                <a
+                  class="postcard__img_link"
+                  href="https://www.goodreads.com/user/show/152164697-haochen-li"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img
+                    class="postcard__full_img"
+                    src="images/goodreads.png"
+                    alt="Image Title"
+                  />
+                </a>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
