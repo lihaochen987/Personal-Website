@@ -1,4 +1,4 @@
-### Personal Website
+## Personal Website
 Portfolio website showcasing projects, work experience and hobbies. The portfolio is created primarily using HTML, CSS and JavaScript. 
 
 
